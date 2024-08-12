@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8bcb5; /* Rosa claro */
+    padding: 30px;
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #000000; /* Negro */
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff69b4; /* Rosa intenso */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-block:hover {
+    background-color: #ff1493; /* Rosa más oscuro */
+}
+
+#resultado-container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #ff69b4; /* Rosa intenso */
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#resultado {
+    font-size: 1.5rem;
+    color: #5c0939; /* Verde para el resultado */
+    font-weight: 700;
+}
