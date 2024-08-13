@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8bcb5;
+    background: linear-gradient(to right, #ff69b4, #800140);
     padding: 30px;
     margin: 0;
 }
@@ -31,7 +31,8 @@ body {
 .btn-block {
     width: 100%;
     padding: 12px;
-    background-color: #ff69b4;
+    background: linear-gradient(to right, #ff69b4, #fd027f);
+
     border: none;
     border-radius: 5px;
     color: #ffffff;

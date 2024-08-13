@@ -10,10 +10,8 @@ function calcularFresnel() {
     d = parseFloat(d);
     f = parseFloat(f);
 
-
-
     let fresnel = 17.32 * Math.sqrt((d / 4) / f);
 
     document.getElementById('resultado').innerText = 
-        `La zona de Fresnel es: ${fresnel.toFixed(2)} metros`;
+        `La zona de Fresnel es: ${fresnel} metros`;
 }
